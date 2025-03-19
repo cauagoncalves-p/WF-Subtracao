@@ -100,8 +100,10 @@
             this.Controls.Add(this.lblNumero1);
             this.Controls.Add(this.txtNumero);
             this.Controls.Add(this.btnClique);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Subtração";
             this.ResumeLayout(false);
             this.PerformLayout();
 
